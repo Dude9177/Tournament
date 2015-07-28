@@ -6,9 +6,14 @@ define(
       self.gameId = ko.observable()
       self.goalsShot = ko.observable()
       self.goalsGot = ko.observable()
+      self.opponentId = ko.observable()
+      
+      self.hasResult = ko.pureComputed(function(){
+        return self.goalsShot() && self.goalsGot()
+      })
 
       self.points = ko.pureComputed(function() {
-        if (!(self.goalsShot() && self.goalsGot())) return null
+        if (!self.hasResult()) return null
 
         if (self.goalsShot() === self.goalsGot()) return 1
 
@@ -20,6 +25,10 @@ define(
 
     PlayedGroupGame.prototype.update = function(data) {
       data = data || {}
+
+      this.gameId(data.gameId || '')
+      this.goalsShot(data.goalsShot || '')
+      this.goalsGot(data.goalsGot || '')
     }
 
     return PlayedGroupGame

@@ -8,6 +8,14 @@ define(
 
       self.groupTeams = ko.observableArray()
 
+      self.groupGames = ko.observableArray()
+
+      self.table = ko.pureComputed(function() {
+        return self.groupTeams.sort(function(left, rigth) {
+          return left.ordinal < right.ordinal
+        })
+      })
+
       self.update(data)
     }
 
@@ -16,8 +24,6 @@ define(
 
       this.groupId(data.groupId || '')
       this.name(data.name || '')
-
-
     }
 
     return Group

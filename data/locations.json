@@ -1,0 +1,74 @@
+{
+  "locations": [
+    {
+      "locationId": "SaintDenis",
+      "stadiumName": "Stade de France",
+      "city": "Saint-Denis",
+      "stadiumCapacity": 81338,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/de/thumb/0/0f/Stade_de_france001.JPG/220px-Stade_de_france001.JPG"
+    },
+    {
+      "locationId": "Marseille",
+      "stadiumName": "Stade Vélodrome",
+      "city": "Marseille",
+      "stadiumCapacity": 67394,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/PanoramiqueStadeVelodromeOM-ZILINAoct2010.jpg/669px-PanoramiqueStadeVelodromeOM-ZILINAoct2010.jpg"
+    },
+    {
+      "locationId": "Lyon",
+      "stadiumName": "Stade des Lumières",
+      "city": "Décines-Charpieu (Lyon)",
+      "stadiumCapacity": 61556,
+      "stadiumImage": ""
+    },
+    {
+      "locationId": "Paris",
+      "stadiumName": "Parc des Princes",
+      "city": "Paris",
+      "stadiumCapacity": 51000,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Paris-Parc-des-Princes.jpg/220px-Paris-Parc-des-Princes.jpg"
+    },
+    {
+      "locationId": "Lilly",
+      "stadiumName": "Stade Pierre-Mauroy",
+      "city": "Villeneuve-d' Ascq (Lille)",
+      "stadiumCapacity": 50186,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Grand_Stade_Lille_M%C3%A9tropole_LOSC_first_match.JPG/220px-Grand_Stade_Lille_M%C3%A9tropole_LOSC_first_match.JPG"
+    },
+    {
+      "locationId": "Lens",
+      "stadiumName": "Stade Bollaert-Delelis",
+      "city": "Lens",
+      "stadiumCapacity": 45000,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stade_Felix-Bollaert.jpg/220px-Stade_Felix-Bollaert.jpg"
+    },
+    {
+      "locationId": "Bordeaux",
+      "stadiumName": "Grand Stade de Bordeaux",
+      "city": "Bordeaux",
+      "stadiumCapacity": 42000,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Grand_Stade_de_Bordeaux.jpg/220px-Grand_Stade_de_Bordeaux.jpg"
+    },
+    {
+      "locationId": "SaintEtienne",
+      "stadiumName": "Stade Geoffroy-Guichard",
+      "city": "Saint-Étienne",
+      "stadiumCapacity": 41950,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stade-GeoffroyGuichard-RWC2007.JPG/220px-Stade-GeoffroyGuichard-RWC2007.JPG"
+    },
+    {
+      "locationId": "Toulouse",
+      "stadiumName": "Stadium Municipal",
+      "city": "Toulouse",
+      "stadiumCapacity": 41000,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/StadiumToulouse3.JPG/446px-StadiumToulouse3.JPG"
+    },
+    {
+      "locationId": "Nizza",
+      "stadiumName": "Stade de Nice",
+      "city": "Nizza",
+      "stadiumCapacity": 35624,
+      "stadiumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Allianzcoupdenvoi.jpg/220px-Allianzcoupdenvoi.jpg"
+    },
+  ]
+}
